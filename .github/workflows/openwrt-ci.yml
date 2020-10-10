@@ -50,7 +50,7 @@ jobs:
           git remote add openwrt https://github.com/coolsnowwolf/lede.git
           git config --global user.email "422214955@qq.com"
           git config --global user.name "lvjiawei333"
-          git pull openwrt master --allow-unrelated-histories --ff-only
+          git pull openwrt master --allow-unrelated-histories --ff-only --rebase
           git remote -v
           df -h
           
