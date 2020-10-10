@@ -47,7 +47,8 @@ jobs:
           
       - name: 涡轮增雕进程         
         run: |
-          git clone https://github.com/liuran001/openwrt-packages.git package
+         cd package
+         git clone https://github.com/liuran001/openwrt-packages.git
           
       - name: Update feeds
         run: |
